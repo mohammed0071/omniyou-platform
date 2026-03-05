@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80">
+  <!-- Transparent background - no bg rect -->
+  
+  <!-- Three-band swirl emblem (left) -->
+  <g transform="translate(40, 40)">
+    <circle cx="0" cy="0" r="28" fill="none" stroke="white" stroke-width="3"/>
+    <path d="M0,-20 Q20,-20 20,0 Q20,20 0,20 Q-20,20 -20,0 Q-20,-20 0,-20" fill="none" stroke="white" stroke-width="2.5" opacity="0.9"/>
+    <path d="M0,-14 Q14,-14 14,0 Q14,14 0,14 Q-14,14 -14,0 Q-14,-14 0,-14" fill="none" stroke="white" stroke-width="2" opacity="0.8"/>
+    <path d="M0,-8 Q8,-8 8,0 Q8,8 0,8 Q-8,8 -8,0 Q-8,-8 0,-8" fill="none" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  </g>
+  
+  <!-- OmniYou wordmark -->
+  <text x="85" y="52" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="36" fill="white">OmniYou</text>
+</svg>
