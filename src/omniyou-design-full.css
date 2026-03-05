@@ -1,0 +1,39 @@
+/* OmniYou - Full Clone Zone Design System */
+
+/* VARIABLES */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+ --bg:#05050f;--bg2:#080815;--bg3:#0c0c20;
+ --cyan:#00e5ff;--cyan2:#00b8d4;--purple:#7c3aed;--purple2:#5b21b6;
+ --orange:#ff6b35;--green:#00ff9d;
+ --text:#e8e8f0;--muted:#8888aa;
+ --glass:rgba(255,255,255,0.04);--glass-b:rgba(0,229,255,0.15);
+ --glow:0 0 40px rgba(0,229,255,0.35);--glow-sm:0 0 16px rgba(0,229,255,0.25);
+ --glow-p:0 0 40px rgba(124,58,237,0.4);
+}
+
+/* Colors */
+--bg: #05050f
+--bg2: #080815
+--cyan: #00e5ff
+--purple: #7c3aed
+--orange: #ff6b35
+--green: #00ff9d
+
+/* Fonts */
+Orbitron - headings
+Inter - body
+
+/* Sections needed:
+1. Hero with cryo chamber visual
+2. Marquee
+3. Problem/Stats
+4. Solution cards
+5. Stages timeline
+6. Content frameworks
+7. Pricing plans
+8. Upsells/Enhancements
+9. Trust section
+10. Contact form
+11. Footer
+*/
