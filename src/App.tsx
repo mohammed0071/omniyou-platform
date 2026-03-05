@@ -6,7 +6,8 @@ import {
   Award, Lock, FileText, Mic, ChevronRight, Star, Dna, GraduationCap,
   Monitor
 } from 'lucide-react'
-import logoIcon from './assets/logo-icon-swirl.svg'
+import logoWordmark from './assets/Wordmark-w.png'
+import logoIcon from './assets/icon-w.png'
 
 /* ────────────────────────────────────────────────────────────────────────── */
 /*  HERO ANIMATION — OMNIFORM INITIALISING                                  */
@@ -141,9 +142,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-6 py-3.5 flex justify-between items-center">
           <a href="#" className="flex items-center gap-3">
             <img src={logoIcon} alt="OmniYou" className="w-9 h-9" />
-            <span className="text-lg font-bold font-display tracking-tight">
-              Omni<span className="text-cyan-400">You</span>
-            </span>
+            <img src={logoWordmark} alt="OmniYou" className="h-7 hidden sm:block" />
           </a>
 
           {/* Desktop nav */}
@@ -839,7 +838,7 @@ function App() {
             <div className="flex items-center gap-3">
               <img src={logoIcon} alt="OmniYou" className="w-7 h-7" />
               <div>
-                <span className="font-bold font-display text-sm">OmniYou™</span>
+                <img src={logoWordmark} alt="OmniYou™" className="h-5 mb-0.5" />
                 <p className="text-xs text-white/20">The personal growth digital clone system.</p>
               </div>
             </div>
